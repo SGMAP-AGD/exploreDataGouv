@@ -10,7 +10,7 @@ Critères :
 - nombre de réutilisations 
 - nombre de téléchargements des ressources
 
-- [HTML data table](http://htmlpreview.github.io/?https://github.com/SGMAP-AGD/exploreDataGouv/blob/master/output/dt_data_top200.html)
+- [Interactive table](https://htmlpreview.github.io/?https://raw.githubusercontent.com/SGMAP-AGD/exploreDataGouv/master/output/dt_data_top200.html)
 
 ### Nombre de followers
 
