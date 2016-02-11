@@ -14,23 +14,13 @@ df_data_top200 <- df_data %>%
 save(df_data_top200, 
      file = "data/df_data_top200.Rda")
 
-df_data_top200 %>% 
-  mutate(followers_n_rank = rank(-followers_n, ties.method = "first")) %>% 
-  arrange(desc(followers_n)) %>%
-  View()
-
-df_data_top200 %>% 
-  mutate(followers_n_rank = rank(-followers_n, ties.method = "first")) %>% 
-  arrange(desc(followers_n)) %>%
-  View()
-
-
-is_top_n <- function(data, x, n) {
-  
-}
-
-
-is_top(20) %>% 
-
-  View()
-
+# df_data_top200 %>% 
+#   mutate(followers_n_rank = rank(-followers_n, ties.method = "first")) %>% 
+#   arrange(desc(followers_n)) %>%
+#   View()
+# 
+# df_data_top200 %>% 
+#   mutate(followers_n_rank = rank(-followers_n, ties.method = "first")) %>% 
+#   arrange(desc(followers_n)) %>%
+#   View()
+# 
